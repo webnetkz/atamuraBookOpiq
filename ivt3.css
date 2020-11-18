@@ -1,0 +1,193 @@
+* {
+	--bgOne: #0089C9;
+  	--bgTwo: #D4F4E4;
+  	--bgThree: #C7E3FC;
+}
+h1 {
+  	padding: 2rem;
+	background-color: var(--bgOne);
+  	border-top-left-radius: 20px;
+  	border-bottom-left-radius: 20px;
+  	color: white;
+  	font-size: 3rem!important;
+  	font-weight: 900;
+  	text-transform: uppercase;
+    font-family: sans-serif;
+}
+/*################################################################ Все блоки под плашки ################################################################*/
+.kit-zknND-blockBG, .kit-zknND-question, .kit-zknND-home, .kit-zknND-warn, .kit-zknND-star, .kit-zknND-lamp, .kit-zknND-email, .kit-zknND-newImg, .kit-zknND-chat {
+	background-color: var(--bgTwo);
+   	border-radius: 20px;
+  	padding: 12px;
+  	margin-bottom: 1rem;
+}
+/*################################################################ Блоки с плашками ################################################################*/
+.kit-zknND-question, .kit-zknND-home, .kit-zknND-warn, .kit-zknND-star, .kit-zknND-lamp, .kit-zknND-email, .kit-zknND-newImg, .kit-zknND-chat {
+  	position: relative;
+  	padding-left: 40px;
+}
+/*################################################################ After для плашек ################################################################*/
+.kit-zknND-question:after, .kit-zknND-home:after, .kit-zknND-warn:after, .kit-zknND-star:after, .kit-zknND-lamp:after, .kit-zknND-email:after, .kit-zknND-newImg:after, .kit-zknND-chat:after {
+  	content: "";
+   	width: 50px;
+  	height: 50px;
+  	border-radius: 50px;
+  	position: absolute;
+  	top: -25px;
+  	left: -15px;
+  	background-size: cover;
+  	background-color: white;
+}
+/*################################################################ Cсылки для фоновых изображений After ################################################################*/
+.kit-zknND-question:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_question_84aeb638-8273-4d2c-aee9-7b701bc4b4e2.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=YGj%2FvHAfd8L%2BVutG4s5Cb8xAt9I8G2Y650l4H65lsIA%3D");
+}
+.kit-zknND-home:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_home_3cd201ef-a2a0-4a49-92ba-27259e7d3fc5.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=iqb3VHU2e8%2F6aqbrzPD3RcTAKTdSWgVuRtP6NNmLAYE%3D");
+  	background-size: 70%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-color: var(--bgOne);
+}
+.kit-zknND-warn:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_warn_bf150d58-5f34-4aa8-8f83-9f68b4dddd1c.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=Zkr6CPw49kaJihETL1DFWpZoiaV6CJ4u1BWoUvOCxhU%3D");
+}
+.kit-zknND-star:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_starTwo_707cfcfc-bd6b-4872-b358-1dc9198ecd3a.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=kVu2jLAp6VdhKAdFtBWlxIyWtl8Y0qU5SfBz18QV2fk%3D");
+	background-size: 80%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-color: var(--bgOne);
+}
+.kit-zknND-lamp:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_lamp_e23bd4af-bce5-4cce-8be9-276ca920856a.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=khCDelrG2aVXAR%2FFftfUBGMCsiobTJasBqIzqFREFbA%3D");
+  	background-size: 80%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-color: var(--bgOne);
+}
+.kit-zknND-email:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_email_33311571-70d7-4364-a180-e4a842096112.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=H2%2FzbZ71%2FVmjgjpmGgMSTVjZiO%2FG7Abm8wBYikaUtg8%3D");
+  	background-size: 70%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-color: var(--bgOne);
+}
+.kit-zknND-newImg:after {content: "";
+  background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/usl_inf_01-removebg-preview_835d370a-4b1e-4f59-bfdd-9a8a9c0e4a76.png?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=fYL4ie4poustNMnok5Zwp%2FsEFAcxUf4LhBPmdNd3NPY%3D");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+}
+.kit-zknND-chat:after {
+  	background-image: url("https://opiqlivestorageaccount.blob.core.windows.net/live-atamura/atamura_chat_17068522-a1d9-483f-85b5-a8fe50732666.svg?sv=2019-12-12&st=2020-10-31T23:55:00Z&se=2020-12-02T00:00:00Z&sr=b&sp=r&sig=zFH%2Baq5F5erIrjpxGwnEBeV%2Fgmrt2MODIJ6NCJrHJzM%3D");
+  	background-size: 70%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-color: var(--bgOne);
+}
+/*################################################################ Анимации ################################################################*/
+.kit-zknND-aniScale:after {animation: aniScale 1s infinite;}
+.kit-zknND-aniJump:after {animation: aniJump 1s infinite;}
+.kit-zknND-aniShadow:after {animation: aniShadow 1s infinite;}
+.kit-zknND-aniSpin:after {animation: aniSpin 2s infinite; animation-delay: 1s;}
+.kit-zknND-aniText:after {animation: aniText 2s infinite; animation-delay: 1s;}
+
+@keyframes aniScale {
+  50% {
+  	transform: scale(1.2);
+  }
+}
+@keyframes aniJump {
+  50% {
+  	top: -45px;
+  }
+}
+@keyframes aniShadow {
+  50% {
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes aniSpin {
+  50% {
+  	transform: rotate(360deg);
+  }
+}
+@keyframes aniText {
+  50% {
+    font-size: 45px;
+  	text-shadow: 0 0 5px white;
+  }
+}
+/*################################################################ Ты узнаешь ################################################################*/
+.kit-zknND-youWillKnow {
+	background-color: var(--bgThree);
+  	background: linear-gradient(to right, var(--bgThree), white);
+    padding: 10px;
+  	padding-top: 20px;
+  	margin-top: 1rem;
+  	margin-bottom: 1rem;
+   	border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  	box-sizing: border-box;
+  	font-family: sans-serif;
+}
+.kit-zknND-youWillKnow p {
+  	font-size: 20px!important;
+  	font-weight: 100;
+  	font-family: sans-serif;
+}
+.kit-zknND-tripleBlock .threeCols h4 {
+  	font-size: 20px!important;
+  	font-weight: 100;
+  	font-family: sans-serif;
+}
+.kit-zknND-youWillKnow:before {
+	content: "Ты узнаешь";
+    font-family: sans-serif;
+    font-size: 1.6rem;
+  	display: block;
+  	margin-left: -10px;
+  	margin-top: -20px!important;
+  	padding-right: 10px!important;
+  	background-color: var(--bgOne);
+  	background: linear-gradient(to right, var(--bgOne), white);
+  	padding: 10px;
+  	min-width: 97%;
+  	font-weight: 900;
+  	color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  	padding-left: 20px;
+  	margin-bottom: 20px;
+}
+/*################################################################ Тройной блок ################################################################*/
+.kit-zknND-tripleBlock {
+	margin-top: 2rem;
+}
+.kit-zknND-tripleBlock .threeCols {
+	background-color: var(--bgThree);
+  	border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  	padding: 20px;
+  	font-size: 20px!important;
+  	font-weight: 100;
+  	font-family: sans-serif;
+  	padding-left: 10px;
+  	min-height: 100%;
+}
+.kit-zknND-tripleBlock .threeCols div[contenteditable="false"] {
+	background-color: var(--bgThree);
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.kit-zknND-tripleBlock .threeCols div[contenteditable="false"]:nth-child(2) {
+  	border-right: 5px solid white;
+  	border-left: 5px solid white;
+  	padding-left: 30px;
+    box-sizing: border-box;
+}
+/*################################################################ Секция без заголовка второго уровня ################################################################*/
+.kit-zknND-noneH2 h2 {
+	display: none;
+}
